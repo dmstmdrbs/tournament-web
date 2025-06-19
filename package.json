@@ -8,7 +8,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy:github": "npm run build && gh-pages -d build"
+    "deploy:github": "GITHUB_PAGES=true npm run build && gh-pages -d out"
   },
   "dependencies": {
     "canvas-confetti": "^1.9.3",
