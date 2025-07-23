@@ -8,29 +8,30 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy:github": "GITHUB_PAGES=true npm run build && gh-pages -d out"
+    "deploy:github": "GITHUB_PAGES=true npm run build && gh-pages -d out",
+    "test": "jest"
   },
   "dependencies": {
-    "canvas-confetti": "^1.9.3",
     "immer": "^10.1.1",
     "lucide-react": "^0.516.0",
     "next": "15.3.3",
     "react": "^18",
-    "react-brackets": "^0.4.7",
     "react-dom": "^18",
-    "react-tooltip": "^5.29.1",
     "zustand": "^5.0.5"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
-    "@types/canvas-confetti": "^1.9.0",
+    "@types/jest": "^30.0.0",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^9",
     "eslint-config-next": "15.3.3",
+    "jest": "^30.0.5",
     "tailwindcss": "^4",
+    "ts-jest": "^29.4.0",
+    "ts-node": "^10.9.2",
     "typescript": "^5"
   }
 }
